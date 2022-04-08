@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // ----------------------------------------------------------------------
 const axiosInstance = axios.create({
-  baseURL: 'https://pokeapi.co/',
+  baseURL: 'https://pokeapi.ss/',
 });
 axiosInstance.interceptors.response.use(
   (response) => response,
